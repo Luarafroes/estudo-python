@@ -35,5 +35,13 @@
 #print(6./3)
 #print(6./3.)
 #print(7/3)
-print(-6//4)
-print(6.//-4)
+#print(-6//4)
+#print(6.//-4)
+#Adiós_Señora = 3
+var = 1
+account_balance = 1000.0
+client_name = 'John Doe'
+print(var, account_balance, client_name)
+print(var)
+var = 2
+print (var)
