@@ -163,4 +163,76 @@ for Mississippi in range(1, 6):
     time.sleep (3)
 print("Ready or not, here I come!")'''
 
-print("ola")
+
+#praticando type (type faz com q mostre o tipo da variavel q estou usando)
+'''x = 10
+print(type(x))'''
+'''if type(x) == float:
+    print("x is a float")
+else: 
+    print("x is not a float")'''
+
+# list is a collection which is ordered and changeable. Allows duplicate members. is represented by [], the itens are separate by a , (coma) and can have any type of data
+'''mylist = [0,8,3,1,6,5,5,5,7,8]
+print(mylist)
+
+print(mylist[8]) #print the 9th element of the list (the first element is 0)
+print(mylist[-1]) #print the last element of the list
+print(mylist[2:5]) #print the 3rd to the 5th element of the list
+print(mylist[5:]) #print from the 6th element to the end of the list
+print(mylist[:5]) #print from the first element to the 5th element of the list'''
+
+#len function is used to get the length of the list (tamanho da lista) ou quantos elementos tem na lista
+'''print(len(mylist))''' #print the length of the list (how many elements have in the list)
+
+#del function is used to delete an element of the list 
+'''del mylist[0] '''#delete the first element of the list
+'''print(mylist)'''
+
+#Lab about list
+'''Hat = [1,2,3,4,5]
+print(Hat)
+Hat[2] = int(input("enter a number to replace the middle number: "))''' #this will replace 3 for the number that the user will enter
+'''print(Hat) 
+print("now I will delete the last element of the list")
+
+del Hat[4] #this will delete the last element of the list
+print(Hat)
+
+print("the numbers of elements on this list is:", len(Hat))''' #this will print the length of the list'''
+
+#methods is a function that belongs to an object, in this case the object is the list
+#append method is used to add an element to the end of the list (is represented by "name of the list".append)
+'''
+list = [1,2,3,4,5]
+list.append(6)
+print(list)'''
+
+#insert method is used to add an element to a specific position of the list (is represented by "name of the list".insert(position, element))
+
+'''mylist = []
+for i in range(5):
+    mylist.insert(0, i+1)''' #this will add the numbers 1 to 5 in the list in the position 0
+
+'''print(mylist)''' #this will print the list with the numbers 1 to 5 in the position 0 of the list = [5,4,3,2,1]
+
+#Lab about list methods append and insert
+
+'''Beatles = []
+Beatles.append("John Lennon")
+Beatles.append("Paul McCartney")
+Beatles.append("George Harrison")
+print(Beatles)
+for i in range(2):
+    Beatles.append(input("enter the name of the next member of the Beatles: "))
+print(Beatles)
+del Beatles[len(Beatles)-1] #this will delete the last element of the list #del is a function that is used to delete an element of the list
+del Beatles[len(Beatles)-1] #this will delete the last element of the list again
+print(Beatles)
+Beatles.insert(0, "Ringo Starr")
+print(Beatles)'''
+
+mylist = ['white', 'blue', 'red', 'green', 'yellow']
+
+for i in range(5): #this will print the numbers from 0 to 4
+    print(mylist[i]) #this will print the colors in the list
