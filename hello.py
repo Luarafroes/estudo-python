@@ -232,7 +232,39 @@ print(Beatles)
 Beatles.insert(0, "Ringo Starr")
 print(Beatles)'''
 
-mylist = ['white', 'blue', 'red', 'green', 'yellow']
+'''mylist = ['white', 'blue', 'red', 'green', 'yellow']
 
 for i in range(5): #this will print the numbers from 0 to 4
-    print(mylist[i]) #this will print the colors in the list
+    print(mylist[i]) #this will print the colors in the list'''
+
+#voce pode colocar uma lista dentro de outra lista e ela sera chamada de lista aninhada (nested list) e a lista dentro da lista se torna um unico elementp
+#exemplo:
+'''mylist = [1,2,3,4,5,[6,7,8,9]]'''   #this will create a list with 5 elements and the last element is a list with 4 elements
+
+
+'''list = [8,10,6,2,4]
+for a in range(len(list)-1): 
+    for i in range(len(list)-1): #this will print the numbers from 0 to 3 (the length of the list -1)
+        if list[i] > list[i+1]: #this will check if the first element is greater than the second element
+            list[i], list[i+1] = list[i+1], list[i] #this will swap the elements of the list if the first element is greater than the second element
+         
+    print(list) #this will print the list after the swap'''
+#input is a function that is used to get the input from the user, in this case the user will have to press enter to continue the loop'''
+'''sum = 0
+for i in range(10):
+   #print(i+1)
+    sum =sum + i
+    print("the sum is:", sum)'''
+
+'''sum = 0
+for i in range(30):
+    sum = sum + i+1
+print("the sum is:", sum)
+
+sum = 0
+for i in range(50):
+    sum = sum + i+1
+print("the sum is:", sum)'''
+
+
+print("Hello world")
