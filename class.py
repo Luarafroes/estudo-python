@@ -37,3 +37,5 @@ print("\n" "now in a list and a for loop")
 StudentsOfComputerscienceB = [Student1, Student2, Student3]  # this will create a list of the students of the class ComputerscienceB
 for student in StudentsOfComputerscienceB:  # this will iterate through the list of students
     print( student.name, "is", student.age, "years old and has a grade of", student.grade )  # it will print the name, age and grade of each student in the lis
+
+    
