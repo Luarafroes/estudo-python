@@ -267,4 +267,5 @@ for i in range(50):
 print("the sum is:", sum)'''
 
 
-print("Hello world")
+print("Hello world" end=)
+ 
